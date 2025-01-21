@@ -15,9 +15,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-
-      - name: Change to correct directory
-        run: cd feature-UserLoginBooking-Sumathi
+        with:
+          ref: feature-UserLoginBooking-Sumathi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
