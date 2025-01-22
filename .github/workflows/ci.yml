@@ -27,3 +27,6 @@ jobs:
 
       - name: Build Project
         run: npm run build
+
+      - name: Start backend server
+        run: npm start
